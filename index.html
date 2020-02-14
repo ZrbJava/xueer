@@ -63,7 +63,8 @@
 Media = document.getElementById("music");
 Media.src = "./bgm.mp3"; 
 document.addEventListener("WeixinJSBridgeReady", function () {
-    Media.play();
+	Media.play();
+	Media.loop;
 }, false);
 
 var offsetX = $("#loveHeart").width() / 2;
